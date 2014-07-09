@@ -1,8 +1,8 @@
 clear all;
 close all;
 
-a = imread('C:\Users\Surya\Desktop\Mex OpenCV tutorial\siftDemoV4\siftDemoV4\book.pgm');
-b = imread('C:\Users\Surya\Desktop\Mex OpenCV tutorial\siftDemoV4\siftDemoV4\scene.pgm');
+a = imread('book.pgm');
+b = imread('scene.pgm');
 % basmati, book, box, scene
 detector = cv.FeatureDetector('SIFT');
 extractor = cv.DescriptorExtractor('SIFT');

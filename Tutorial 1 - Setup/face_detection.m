@@ -12,5 +12,5 @@ boxes = detector.detect(gr, 'ScaleFactor',  1.3, ...
 imshow(im);
 for i = 1:numel(boxes)
     rectangle('Position',  boxes{i}, ...
-              'EdgeColor', 'g');
+              'EdgeColor', 'g', 'LineWidth',2);
 end
